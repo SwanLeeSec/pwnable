@@ -1,3 +1,5 @@
+# for get Windows Function Address
+
 import sys
 from ctypes import *
 import ctypes
