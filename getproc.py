@@ -11,6 +11,6 @@ if len(sys.argv) < 2:
 target_dll = sys.argv[1]
 target_function = sys.argv[2]
 dll = windll.LoadLibrary(target_dll)
-function = kernel32.GetProcAddress(dll._handle, target_function)
+function = dll.GetProcAddress(dll._handle, target_function)
 print "[##] Find Address %s(%s) : 0x%08x" % \
 	(target_dll,target_function,fuction)
