@@ -3,7 +3,7 @@ from ctypes import *
 import ctypes
 
 def usage():
-	print  "\n # Get Function Address from hyunmini # \n"
+	print  "\n # Get Function Address from hyunmini, fixed by pathFindar # \n"
 	print "Usage : %s [dll] [proc]" % sys.argv[0]
 	sys.exit()
 if len(sys.argv) < 2:
